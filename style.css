@@ -1,0 +1,556 @@
+body {
+    margin: 0;              
+    padding: 0;
+  }
+
+.container{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("image1.webp");
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+      padding:10px 0; 
+  margin:0;
+}
+.begin h1,p{
+    transform: translate(10px,-70px);
+    line-height: 0.5;
+}
+
+.begin h1{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.begin h2,a{
+    color: white;
+    transform: translate(1000px,-140px);
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+.begin p{
+font-size:18px;
+color: white;
+text-align: left;
+}
+
+.begin button{
+    background-color: violet;
+    color: white;
+    text-align: right;
+    font-size:20px;
+     transform: translate(1100px,-180px);
+     border-color: violet;
+}
+
+.navbar ul,li,a {
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+     transform: translate(5px,-100px);
+     padding: 10px;
+     font-size: 15px;
+}
+ .main h1{
+    text-align: left;
+    font-size: 35px;
+    padding: 5px;
+    color: white;
+    transform: translate(5px,-140px);
+ }
+ .main p{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    transform: translate(5px,-138px);
+ }
+
+ .main button {
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  border-color: white;
+ transform: translate(5px,-110px);
+ }
+
+ .bottom h1{
+text-align: right;
+font-size: 30px;
+color: white;
+margin-right: 100px;
+transform: translate(-55px,-110px);
+ }
+
+ .bottom p{
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+     margin-right: 390px;
+    transform: translate(5px,-107px);
+ }
+  .group{
+display: flex;
+justify-content: flex-end;
+margin-right: 390px;
+ transform: translate(5px,-95px);
+ }
+ .btn{
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+ }
+
+ .btn-un {
+background-color: transparent;
+color: black;
+
+ }
+  .btn-deux {
+background-color: violet;
+color: white;
+ }
+
+.fleche-suivant {
+ position:absolute; 
+ left: 10px;
+bottom:10px; 
+transform: scale(2);
+  display: inline-block;
+    transform: rotate(90deg);
+    font-size: 80px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.part{
+    height: 100vh;
+}
+.first h1{
+    text-align: left;
+    display: grid;
+    font-size:70px;
+    padding: 0px;
+    color: black;
+    transform: translate(35px,70px);
+}
+.second h1{
+    text-align: right;
+    margin : 20px ;
+  color: black;
+    font-size: 30px;
+    padding : 20px;
+     transform: translate(-250px,-130px);
+}
+.second p{
+    margin : 20px ;
+  color: black;
+    font-size: 15px;
+    padding :20px;
+     transform: translate(735px,-165px);
+     align-items:right;
+}  
+.image1 {
+   transform: translate(790px,-400px);
+}
+.image2 {
+   transform: translate(35px,-20px);
+}
+.third h1{
+text-align: left;
+margin: 20px;
+color: black;
+font-size: 30px;
+  transform: translate(26px,240px);
+}
+.third p{
+  text-align:left;
+    margin : 5px ;
+  color: black;
+    font-size: 15px;
+    padding :20px;
+     transform: translate(26px,225px);
+     align-items:right;
+}
+.image3 {
+   transform: translate(770px,-265px);
+}
+.fourth h1{
+text-align:right;
+margin: 20px;
+color: black;
+font-size: 30px;
+  transform: translate(-280px,-10px);
+}
+.fourth p{
+    margin : 5px ;
+    color: black;
+    font-size: 15px;
+    padding :20px;
+     transform: translate(750px,-20px);
+     align-items:right;
+}
+.hor{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+.vert{
+  width: 2px;
+  height: 100px;
+  background-color: black;
+}
+.part{
+     margin: 0;
+  height: 100%;
+}
+.division{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.cell{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.division::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: black;
+  transform: translateX(-50%);
+}
+.division::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background: black;
+  transform: translateY(-50%);
+}
+.about{
+    background-image: url(image3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.part1 h1{
+   font-size: 60px;
+color: white;
+text-align: left;
+padding: 70px;
+ transform: translate(10px,-10px);
+ line-height: 1.2;
+ 
+}
+.part1 p{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    padding: 65px;
+        transform: translate(10px,-130px);
+}
+.part2 hr {
+      width: 35%;
+    margin: 0 auto;
+    border: 1px solid white; 
+    transform: translate(520px,-60px);
+}
+.part2 p{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+        transform: translate(-26px,-60px);
+        justify-content: right; 
+}
+.part2 button {
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+  border-color: white;
+  display: flex;
+  border-color: white;
+padding-bottom: 10px;
+justify-content: center;
+cursor: pointer;
+width: 12%;
+height: 40px;
+ transform: translate(1120px,-25px);
+ }
+
+.univ{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image4.jpeg);
+   background-size: cover;
+    background-position: center;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    
+}
+.nos h1{
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  transform: translate(10px,70px);
+}
+.nos p{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+transform: translate(10px,75px);
+}
+.first-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left: 110px;
+ transform:translate(10px,158px);
+}
+.second-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left:550px;
+ transform:translate(10px,25px);
+}
+.third-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left: 990px;
+ transform:translate(-20px,-100px);
+}
+.first-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(180px,200px);
+cursor: pointer;
+}
+.second-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(605px,75px);
+cursor: pointer;
+}
+.third-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(1030px,-30px);
+cursor: pointer;
+}
+.fourth-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left: 990px;
+ transform:translate(-810px,95px);
+}
+.fifth-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left: 990px;
+ transform:translate(-420px,-30px);
+}
+.sixth-paragraph{
+  color: white;
+  font-size: 25px;
+  margin-left: 990px;
+ transform:translate(-10px,-135px);
+}
+.fourth-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(185px,170px);
+cursor: pointer;
+}
+.fifth-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(610px,65px);
+cursor: pointer;
+}
+.sixth-button{
+  color: white;
+  background-color: violet;
+  font-size: 15px;
+  align-self: center;
+  height:40px;
+transform:translate(1030px,-60px);
+cursor: pointer;
+}
+.before{
+  background-image:url(image5.webp);
+ background-size: cover;
+ filter: brightness(70%); 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed; 
+}
+.un{
+  color: white;
+  text-align: center;
+  font-size: 85px;
+ transform: translate(10px,-10px);
+}
+.deux{
+   color: white;
+  text-align: center;
+  font-size: 50px; 
+  line-height: 2.0;
+  transform: translate(10px,-12px);
+}
+.footer1 {
+  background-color: black;
+  padding:10px 0; 
+  max-height:118vh;
+}
+.one h1{
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
+   transform: translate(80px,110px);
+}
+.one p{
+  color: white;
+  font-size: 15px;
+  line-height: 0.5;
+  transform: translate(80px,100px);
+}
+.two h1{
+  color: white;
+  font-size: 70px;
+  transform: translate(80px,235px);
+}
+.two button{
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  border-color: white;
+  height: 40px;
+  align-items: center;
+ transform: translate(85px,220px);
+}
+.two h2{
+  color:white;
+  font-size: 25px;
+  transform: translate(900px,-265px);
+}
+.two p{
+  color:white;
+  font-size: 20px;
+  transform: translate(900px,-265px);
+}
+.three h1{
+  color:white;
+  font-size: 25px;
+  transform: translate(900px,-230px);
+}
+.three p{
+   color:white;
+  font-size: 20px;
+  transform: translate(900px,-225px);
+}
+.four h1{
+  color:white;
+  font-size: 25px;
+  transform: translate(900px,-185px);
+}
+.four a{
+color:white;
+  font-size: 18px;
+  text-decoration: underline;
+ display: inline-block;
+  transform: translate(890px,-190px);
+}
+.cinq a{
+  color:white;
+  font-size: 18px;
+  text-decoration: underline;
+ display: inline-block;
+  transform: translate(890px,-200px);
+}
+.six a{
+  color:white;
+  font-size: 18px;
+  text-decoration: underline;
+ display: inline-block;
+  transform: translate(890px,-210px);
+}
+.line hr{
+  width: 0px;
+  height: 620px;
+   transform: translate(10px,-738px);
+}
+.trait1 hr{
+   transform: translate(-20px,-550px); 
+   width: 1372px;
+}
+.trait2 hr {
+ position: relative;
+  height: 1115px;
+   position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+      transform: translate(10px,-1125px);
+       color: black;
+} 
+.trait hr{
+  position: relative;
+  height: 310px;
+   position: absolute;
+    transform: translateX(-50%);
+    transform: translate(10px,-250px);
+    left: 50%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.flech-bas {
+color: white;
+font-size: 80px;
+text-decoration: none;
+display: inline-block;
+top: 20px;
+margin-left: 600px;
+ transform: translate(10px,-470px);
+}
